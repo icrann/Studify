@@ -1,5 +1,15 @@
 local Studify = {}
 
+--Millimeters
+
+function Studify.Millimeters(studs)
+	return studs * 280
+end
+
+function Studify.Millimeters_(mm)
+	return mm / 280
+end
+
 --Centimeters
 
 function Studify.Centimeters(studs)
